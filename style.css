@@ -297,29 +297,166 @@ main {
 
 /* ==== STATEMENT ==== */
 
-#estrategia-impositiva {
-    background-image: url("Imagenes/background-5-2.jpg");
+#slider {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 56rem;
+    overflow: hidden;
+}
+
+#slides {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56rem;
+    transition: margin-left 1s;
+}
+
+#slides input {
+    display: none;
+}
+
+.slide {
+    margin: 0;
+    padding: 0;
+    flex: 0 0 100%; /* Each slide takes full viewport width */
+    height: 56rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first-slide {
+    background-image: url(Imagenes/background-5-2.jpg);
+}
+
+#second-slide {
+    background-image: url(Imagenes/background-5-2.jpg);
+}
+
+#third-slide {
+    background-image: url(Imagenes/background-5-2.jpg);
+}
+
+#navigation-manual {
+    position: absolute;
+    width: 100%;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid var(--whiteColor);
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 1s;
+    margin: 8px 0;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: var(--whiteColor);
+}
+
+#navigation-auto {
+    position: absolute;
+    width: 100%;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
+#navigation-auto div {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 1s;
+    margin: 8px 0;
+}
+
+#navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+    transition: 1s;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -100%;
+    transition: 1s;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -200%;
+    transition: 1s;
+}
+
+#radio1:checked ~ #navigation-auto #auto-btn-1 {
+    margin-left: 0;
+    transition: 1s;
+}
+
+#radio2:checked ~ #navigation-auto #auto-btn-2 {
+    margin-left: -100%;
+    transition: 1s;
+}
+
+#radio3:checked ~ #navigation-auto #auto-btn-3 {
+    margin-left: -200%;
+    transition: 1s;
+}
+
+.statement-slide-div {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56rem;
+    background-attachment: fixed;
 }
 
-#estrategia-impositiva .common-padding {
+#first-slide .statement-slide-div {
+    background-image: url("Imagenes/landscape-bg-1-mobile.webp");
+}
+
+#second-slide .statement-slide-div {
+    background-image: url("Imagenes/landscape-bg-2-mobile.webp");
+    background-position: left;
+}
+
+#third-slide .statement-slide-div {
+    background-image: url("Imagenes/landscape-bg-3-mobile.webp");   
+}
+
+.statement-slide-div .common-padding {
     color: var(--whiteColor);
     padding-top: 6rem;
     padding-bottom: 4rem;
+    position: relative;
     text-align: center;
 }
 
-#estrategia-impositiva h1 {
-    font-size: 3rem;
+.statement-slide-div h1 {
+    font-size: 2.75rem;
     font-weight: 200;
-    line-height: 3.5rem;
+    line-height: 3.25rem;
     padding-top: 2.5rem;
     color: var(--whiteColor);
 }
 
-#estrategia-impositiva p {
+.statement-slide-div p {
     color: var(--whiteColor);
     font-size: 1.125rem;
     font-weight: 300;
@@ -850,17 +987,32 @@ footer hr {
         font-size: 3rem;
     }
 
-    #estrategia-impositiva .common-padding {
+    #first-slide .statement-slide-div {
+        background-image: url(Imagenes/landscape-bg-1.webp);
+        background-position: bottom;
+    }
+
+    #second-slide .statement-slide-div {
+        background-image: url(Imagenes/landscape-bg-2-1.webp);
+        background-position: bottom;
+    }
+
+    #third-slide .statement-slide-div {
+        background-image: url(Imagenes/landscape-bg-3.webp);
+        background-position: center;
+    }
+
+    .statement-slide-div .common-padding {
         padding: 12rem 4% 10rem;
     }
 
-    #estrategia-impositiva h1 {
+    .statement-slide-div h1 {
         font-size: 3.25rem;
         line-height: 3.25rem;
         max-width: 24ch;
     }
 
-    #estrategia-impositiva p {
+    .statement-slide-div p {
         max-width: 54ch;
     }
 

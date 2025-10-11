@@ -147,7 +147,7 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a class="nav-li-element" href="index.html">Página Principal</a></li>
+                        <li><a class="nav-li-element" href="#main-carrousel">Página Principal</a></li>
                         <li><a class="nav-li-element" href="Pages/servicios.html">Servicios</a></li>
                         <li><a class="nav-li-element" href="Pages/nosotros.html">Nosotros</a></li>
                         <li><a class="nav-li-element" href="Pages/contacto.html">Contacto</a></li>
@@ -157,18 +157,65 @@
             </div>
         </header>
         <main>
-            <section id="estrategia-impositiva">
-                <div class="common-padding">
-                    <div class="text-container">
-                        <h1>Generá bienestar mediante una estrategia impositiva.</h1>
-                        <p>
-                            Te ayudamos a desarrollar una estrategia impositiva adecuada optimizando tus recursos y garantizando el cumplimiento fiscal para reducir riesgos y maximizar tus beneficios.
-                        </p>
+            <section id="main-carrousel">
+                <div id="slider">
+                    <div id="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">       
+                        <div class="slide first" id="first-slide">
+                            <div class="statement-slide-div">
+                                <div class="common-padding">
+                                    <div class="text-container">
+                                        <h1>Generá bienestar mediante una estrategia impositiva.</h1>
+                                        <p>
+                                            Te ayudamos a desarrollar una estrategia impositiva adecuada optimizando tus recursos y garantizando el cumplimiento fiscal para reducir riesgos y maximizar tus beneficios.
+                                        </p>
+                                    </div>
+                                    <div id="button-container">
+                                        <a href="Pages/contacto.html" class="call-to-action">Contacto</a>
+                                        <a href="Pages/servicios.html" class="button-underline">Servicios</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="second-slide">
+                            <div class="statement-slide-div">
+                                <div class="common-padding">
+                                    <div class="text-container">
+                                        <h1>Convertimos tus obligaciones en oportunidades.</h1>
+                                        <p>Con un enfoque proactivo, transformamos tus obligaciones impositivas en herramientas para potenciar tu crecimiento y estabilidad financiera.</p>
+                                    </div>
+                                    <div id="button-container">
+                                        <a href="Pages/nosotros.html" class="button-underline">Conocenos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="third-slide">
+                            <div class="statement-slide-div">
+                                <div class="common-padding">
+                                    <div class="text-container">
+                                        <h1>Tu tranquilidad financiera, nuestra prioridad.</h1>
+                                        <p>En cada paso te acompañamos con asesoramiento claro y soluciones efectivas para que puedas concentrarte en lo que importa: hacer crecer tu proyecto.</p>
+                                    </div>
+                                    <div id="button-container">
+                                        <a href="Pages/contacto.html" class="button-underline">Contacto</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div id="button-container">
-                        <a href="Pages/contacto.html" class="call-to-action">Contacto</a>
-                        <a href="Pages/servicios.html" class="button-underline">Servicios</a>
-                    </div>
+                </div>
+                <div id="navigation-auto">
+                    <div id="auto-btn-1"></div>
+                    <div id="auto-btn-2"></div>
+                    <div id="auto-btn-3"></div>
+                </div>
+                <div id="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
                 </div>
             </section>
             <section id="section-servicios">
@@ -412,4 +459,5 @@
     </body>
     <script src="Scripts/hamburgerMenu.js"></script>
     <script src="Scripts/headerAnimation.js"></script>
+    <script src="Scripts/1slider.js"></script>
 </html>
