@@ -348,7 +348,7 @@ main {
     justify-content: center;
 }
 
-.manual-btn {
+.manual-btn, #navigation-auto div {
     border: 2px solid var(--whiteColor);
     padding: 5px;
     border-radius: 12px;
@@ -371,15 +371,6 @@ main {
     margin-top: -60px;
     display: flex;
     justify-content: center;
-}
-
-#navigation-auto div {
-    border: 2px solid red;
-    padding: 5px;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: 1s;
-    margin: 8px 0;
 }
 
 #navigation-auto div:not(:last-child) {
@@ -449,9 +440,9 @@ main {
 }
 
 .statement-slide-div h1 {
-    font-size: 2.75rem;
+    font-size: 3rem;
     font-weight: 200;
-    line-height: 3.25rem;
+    line-height: 3.5rem;
     padding-top: 2.5rem;
     color: var(--whiteColor);
 }
@@ -474,6 +465,10 @@ main {
 
 #section-servicios ul {
     padding: 1rem 0;
+}
+
+#section-servicios img {
+    box-shadow: 0 12px 64px rgb(223, 223, 223);
 }
 
 #servicios-div-card ul {
@@ -615,6 +610,10 @@ main {
     background-color: var(--blackColor);
 }
 
+#main-servicios .div-top-page {
+    background-image: url(Imagenes/servicios-bg-mobile.webp);
+}
+
 #servicios-servicios .common-padding {
     padding-top: 0;
 }
@@ -633,9 +632,10 @@ main {
 }
 
 #section-nosotros {
-    background-image: url("Imagenes/background-4.jpg");
+    background-image: url("Imagenes/handshake-bg.webp");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #section-nosotros .text-container {
@@ -646,11 +646,13 @@ main {
 #section-nosotros h2,
 #section-nosotros p {
     color: var(--whiteColor);
+    text-align: left;
 }
 
 #section-nosotros .button-underline {
     color: var(--whiteColor);
     margin: 1rem auto 2rem;
+    margin-left: 0;
 }
 
 #ul-opiniones-clientes {
@@ -765,19 +767,37 @@ main {
 
 .div-top-page {
     color: var(--whiteColor);
-    padding-top: 2rem;
-    background-image: url("Imagenes/background-1.jpg");
-    background-repeat: no-repeat;
+    background-color: white;
+    height: 36rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.div-top-page .common-padding {
+    display: flex;
+    position: relative;
 }
 
 .div-top-page h1 {
-    font-size: 2.5rem;
+    max-width: 24ch;
+    font-size: 3rem;
     color: var(--whiteColor);
     text-align: center;
-    padding: 4rem 0 2rem;
+    margin: 0;
+    padding: 5rem 0 0;
     text-shadow: 2px 2px 30px black;
+}
+
+#main-nosotros .div-top-page {
+    background-image: url(Imagenes/handshake-bg-2.webp);
 }
 
 #section-nosotros-nosotros h2,
@@ -785,6 +805,10 @@ main {
     text-align: left;
     padding-top: 1rem;
     margin: -2rem 0 0;
+}
+
+#section-contacto-contacto {
+    padding-top: 6rem;
 }
 
 #main-preguntas-frecuentes h1 {
@@ -929,7 +953,7 @@ footer hr {
     }
 
     #header-logo {
-        width: 96px;
+        width: 120px;
     }
 
     #hamburguer-menu-icon {
@@ -987,6 +1011,15 @@ footer hr {
         font-size: 3rem;
     }
 
+    #slider, #slides, .slide, 
+    .statement-slide-div {
+        height: 48rem;
+    }
+
+    #navigation-auto div, .manual-btn {
+        border: 3px solid var(--whiteColor);
+    }
+
     #first-slide .statement-slide-div {
         background-image: url(Imagenes/landscape-bg-1.webp);
         background-position: bottom;
@@ -1003,7 +1036,7 @@ footer hr {
     }
 
     .statement-slide-div .common-padding {
-        padding: 12rem 4% 10rem;
+        padding: 8rem 4% 4rem;
     }
 
     .statement-slide-div h1 {
@@ -1045,15 +1078,14 @@ footer hr {
         max-width: 28%;
     }
 
-    #section-nosotros .common-padding {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        gap: 4rem;
+    #section-nosotros {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
     }
 
     #section-nosotros h2 {
         text-align: left;
+        margin: 0;
     }
 
     #section-nosotros img {
@@ -1069,9 +1101,19 @@ footer hr {
         max-width: 360px;
     }
 
+    #main-nosotros .div-top-page {
+        background-image: url(Imagenes/handshake-bg-2.webp);
+        background-position: bottom;
+    }
+
     #section-nosotros-nosotros .common-padding,
     #servicios-servicios .common-padding {
         padding-top: 4rem;
+    }
+
+    #main-servicios .div-top-page {
+        background-image: url(Imagenes/services-bg.webp);
+        background-position: center;
     }
 
     #servicios-servicios h2 {
