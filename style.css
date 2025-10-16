@@ -861,6 +861,7 @@ footer a {
 
 footer a:hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 #footer-div-top-logo {
@@ -933,6 +934,45 @@ footer hr {
 
 .wsp-flotante svg path {
     fill: var(--whiteColor);
+}
+
+.moving-text {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.75s ease-in-out;
+}
+
+.moving-text-slow {
+    opacity: 0;
+    transform: translateY(25%);
+    transition: all 0.75s ease-in-out;
+}
+
+.moving-text.visible, .moving-text-slow.visible {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.fade-in-element-h1 {
+    opacity: 0;
+    transition: all 1.2s ease-in-out;   
+}
+
+.fade-in-element-h1.visible {
+    opacity: 1;
+}
+
+.fade-in-element {
+    opacity: 0;
+    transition: all 1.2s ease-in-out 0.25s;
+}
+
+.fade-in-element.visible {
+    opacity: 1;
+}
+
+#button-container.moving-text {
+    transition: all 0.75s ease-in-out 1s;
 }
 
 @media (min-width: 992px) {
@@ -1061,12 +1101,24 @@ footer hr {
     }
 
     #servicios-texto-ul {
-        gap: 160px;
+        gap: 0;
     }
 
     #servicios-texto-ul li {
         flex-direction: row-reverse;
-        gap: 64px;
+        gap: 100px;
+        padding: 4rem 0;
+    }
+
+    #servicios-texto-ul li.moving-text {
+        opacity: 0;
+        transform: translateY(50%);
+        transition: all 0.75s ease;
+    }
+
+    #servicios-texto-ul li.moving-text.visible {
+        opacity: 1;
+        transform: translateY(0%);
     }
 
     #servicios-texto-ul li:nth-child(2n - 1) {
@@ -1074,7 +1126,7 @@ footer hr {
     }
 
     .servicio-texto-div-img {
-        max-width: 28%;
+        max-width: 35%;
     }
 
     #section-nosotros {
@@ -1135,6 +1187,17 @@ footer hr {
         min-width: 36%;
         height: fit-content;
         
+    }
+
+    .sub-section-servicios.moving-text {
+        opacity: 0;
+        transform: translateY(50%);
+        transition: all 0.75s ease;
+    }
+
+    .sub-section-servicios.moving-text.visible {
+        opacity: 1;
+        transform: translateY(0%);
     }
 
     #section-contacto-index h2,
