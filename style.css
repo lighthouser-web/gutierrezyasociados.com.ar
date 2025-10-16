@@ -335,7 +335,7 @@ main {
 }
 
 .slide-picture,
-.slide-img {
+.slide-img, .div-top-page-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -343,7 +343,7 @@ main {
   height: 100%;
 }
 
-.slide-img {
+.slide-img, .div-top-page-img {
     object-fit: cover;
     object-position: center;
     z-index: 0;
@@ -795,10 +795,6 @@ main {
     margin: 0;
     padding: 5rem 0 0;
     text-shadow: 2px 2px 30px black;
-}
-
-#main-nosotros .div-top-page {
-    background-image: url(Imagenes/handshake-bg-2.webp);
 }
 
 #section-nosotros-nosotros h2,
