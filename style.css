@@ -185,11 +185,13 @@ header.deactivate::before {
 }
 
 #header-div a {
+    font-size: 1.0625rem;
     line-height: 0;
+    font-weight: bold;
 }
 
 #header-logo {
-    width: 100px;
+    width: 120px;
     height: auto;
     border-radius: 0;
     vertical-align: middle;
@@ -247,6 +249,7 @@ header.scrolled .bar {
 header.scrolled #header-logo g, 
 header.scrolled #header-logo path {
     fill: var(--blackColor);
+    stroke: var(--blackColor);
 }
 
 header.scrolled #header-logo.light g, 
@@ -867,7 +870,7 @@ footer a:hover {
 #footer-div-top-logo {
     margin: 0;
     padding: 1rem 0;
-    max-width: 144px;
+    max-width: 180px;
     height: auto;
     align-self: left;
     border-radius: 0;
@@ -992,7 +995,7 @@ footer hr {
     }
 
     #header-logo {
-        width: 120px;
+        width: 160px;
     }
 
     #hamburguer-menu-icon {
@@ -1152,9 +1155,23 @@ footer hr {
         max-width: 360px;
     }
 
+    .div-top-page {
+        margin-bottom: 0;
+    }
+
+    .div-top-page h1 {
+        font-size: 5rem;
+    }
+
     #main-nosotros .div-top-page {
         background-image: url(Imagenes/handshake-bg-2.webp);
         background-position: bottom;
+    }
+
+    #nosotros-body-text {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10rem;
     }
 
     #section-nosotros-nosotros .common-padding,
@@ -1165,6 +1182,10 @@ footer hr {
     #main-servicios .div-top-page {
         background-image: url(Imagenes/services-bg.webp);
         background-position: center;
+    }
+
+    #servicios-servicios .common-padding {
+        padding-top: 2rem;
     }
 
     #servicios-servicios h2 {
@@ -1223,7 +1244,7 @@ footer hr {
 
     #footer-div-top-logo {
         max-width: 100%;
-        width: 160px;
+        width: 180px;
         height: 100%;
     }
 }

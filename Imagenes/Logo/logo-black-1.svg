@@ -1,34 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Contactanos - Gutierrez & Asociados</title>
-        <meta name="keywords" content="contabilidad">
-        <meta name="description" content="your description here...">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Citronov WebSites">
-        <link rel="stylesheet" href="../style.css">
-        <link rel="icon" href="../Imagenes/Logo/gya-icon.ico" type="image/x-icon">
-    </head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-37Z1E6V184"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-        gtag('config', 'G-37Z1E6V184');
-    </script>
-    <body>
-        <header class="scrolled">
-            <div id="header-div">
-                <div id="header-top">
-                    <a href="../index.html">
-                        <svg id="header-logo"
-   width="105.19357mm"
-   height="27.72757mm"
-   viewBox="0 0 105.19357 27.72757"
+<svg
+   width="105.06068mm"
+   height="27.462997mm"
+   viewBox="0 0 105.06068 27.462997"
    version="1.1"
+   id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="logo-project.svg"
    xml:space="preserve"
@@ -41,6 +19,8 @@
    xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
      inkscape:showpageshadow="0"
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
@@ -60,192 +40,76 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Logo 2"
-     transform="translate(152.02433,173.54444)"><g
-       id="g569-9"
-       inkscape:label="logo white"
-       transform="translate(31.07791,60.011284)"
-       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1"><g
-         id="g1260-7"
+     transform="translate(148.78701,220.73573)"><g
+       id="g569"
+       inkscape:label="logo black"
+       transform="translate(32.414462,8.5283068)"><g
+         id="g1268-8"
          inkscape:label="Path"
-         style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1"
-         transform="translate(122.72441,-0.94038996)"><g
+         transform="translate(124.62518,3.3513146)"><g
            aria-label="GUTIERREZ"
-           id="text499-36-5"
+           id="text499-7"
            style="font-size:14.6049px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';letter-spacing:2.64583px;stroke-width:0.529167"><path
              d="m -300.41328,-223.6577 q 0.8201,0 1.59028,-0.23534 0.77018,-0.24246 1.19093,-0.61329 v -1.3906 h -2.45317 v -1.55463 h 4.37862 v 3.69402 q -0.7987,0.8201 -2.08234,1.28363 -1.2765,0.46354 -2.68137,0.46354 -2.45316,0 -3.77245,-1.35495 -1.31929,-1.36208 -1.31929,-3.85803 0,-2.4817 1.32642,-3.80099 1.32642,-1.32642 3.81524,-1.32642 3.53713,0 4.49985,2.61719 l -1.93971,0.58477 q -0.31378,-0.76305 -0.98412,-1.15527 -0.67034,-0.39223 -1.57602,-0.39223 -1.48331,0 -2.25349,0.89855 -0.77018,0.89854 -0.77018,2.5744 0,1.70438 0.79158,2.63858 0.7987,0.92707 2.23922,0.92707 z"
-             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1437" /><path
+             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke:#000000"
+             id="path1333" /><path
              d="m -286.99918,-222.01037 q -2.07521,0 -3.18056,-1.01265 -1.09822,-1.01264 -1.09822,-2.89531 v -6.28267 h 2.10373 v 6.11865 q 0,1.19093 0.56337,1.81135 0.57051,0.6133 1.66873,0.6133 1.12674,0 1.7329,-0.64182 0.60616,-0.64895 0.60616,-1.85414 v -6.04734 h 2.10374 v 6.1757 q 0,1.91119 -1.1838,2.96663 -1.17666,1.0483 -3.31605,1.0483 z"
-             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1439" /><path
+             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke:#000000"
+             id="path1335" /><path
              d="m -273.4496,-230.57506 v 8.42206 h -2.10373 v -8.42206 h -3.24474 v -1.62594 h 8.60035 v 1.62594 z"
-             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1441" /><path
+             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke:#000000"
+             id="path1337" /><path
              d="m -266.41802,-222.153 v -10.048 h 2.10373 v 10.048 z"
-             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1443" /><path
+             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke:#000000"
+             id="path1339" /><path
              d="m -259.71448,-222.153 v -10.048 h 7.90148 v 1.62594 h -5.79775 v 2.52448 h 5.36274 v 1.62593 h -5.36274 v 2.64571 h 6.09013 v 1.62594 z"
-             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1445" /><path
+             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke:#000000"
+             id="path1341" /><path
              d="m -240.4242,-222.153 -2.33193,-3.81524 h -2.46743 v 3.81524 h -2.10374 v -10.048 h 5.02044 q 1.79709,0 2.77407,0.77731 0.97699,0.77018 0.97699,2.21784 0,1.05543 -0.59903,1.82561 -0.59903,0.76305 -1.6188,1.00551 l 2.71702,4.22173 z m -0.24959,-6.96728 q 0,-1.44765 -1.85414,-1.44765 h -2.69563 v 2.96662 h 2.75268 q 0.88428,0 1.34068,-0.39936 0.45641,-0.39935 0.45641,-1.11961 z"
-             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1447" /><path
+             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke:#000000"
+             id="path1343" /><path
              d="m -227.23117,-222.153 -2.33194,-3.81524 h -2.46743 v 3.81524 h -2.10373 v -10.048 h 5.02043 q 1.79709,0 2.77408,0.77731 0.97699,0.77018 0.97699,2.21784 0,1.05543 -0.59903,1.82561 -0.59903,0.76305 -1.61881,1.00551 l 2.71703,4.22173 z m -0.2496,-6.96728 q 0,-1.44765 -1.85414,-1.44765 h -2.69563 v 2.96662 h 2.75268 q 0.88428,0 1.34069,-0.39936 0.4564,-0.39935 0.4564,-1.11961 z"
-             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1449" /><path
+             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke:#000000"
+             id="path1345" /><path
              d="m -220.94126,-222.153 v -10.048 h 7.90148 v 1.62594 h -5.79774 v 2.52448 h 5.36273 v 1.62593 h -5.36273 v 2.64571 h 6.09013 v 1.62594 z"
-             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1451" /><path
+             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke:#000000"
+             id="path1347" /><path
              d="m -201.03055,-222.153 h -8.0655 v -1.49044 l 5.43405,-6.91023 h -4.89207 v -1.64733 h 7.23114 v 1.46192 l -5.43405,6.93875 h 5.72643 z"
-             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1453" /></g><g
+             style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke:#000000"
+             id="path1349" /></g><g
            aria-label="ASOCIADOS"
-           id="text499-3-6-2"
+           id="text499-3-2"
            style="font-size:14.605px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';letter-spacing:0px;stroke-width:0.52917"><path
              d="m -280.69744,-205.29498 -0.89141,-2.56729 h -3.82954 l -0.89142,2.56729 h -2.10374 l 3.66551,-10.04807 h 2.48171 l 3.65125,10.04807 z m -2.80975,-8.50057 -0.0428,0.15689 q -0.0713,0.25673 -0.17116,0.58477 -0.0998,0.32804 -1.22659,3.60846 h 2.8882 l -0.99126,-2.88819 -0.30665,-0.96987 z"
              style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1456" /><path
+             id="path1352" /><path
              d="m -269.05908,-208.19031 q 0,1.47619 -1.09822,2.26064 -1.0911,0.77731 -3.20911,0.77731 -1.9326,0 -3.03082,-0.68461 -1.09823,-0.6846 -1.41201,-2.07522 l 2.03243,-0.33517 q 0.20681,0.79871 0.80585,1.16241 0.59903,0.35657 1.6616,0.35657 2.20359,0 2.20359,-1.3407 0,-0.42788 -0.25673,-0.706 -0.2496,-0.27812 -0.71314,-0.46354 -0.4564,-0.18541 -1.76144,-0.44927 -1.12675,-0.26386 -1.5689,-0.42075 -0.44214,-0.16402 -0.79871,-0.37796 -0.35656,-0.22108 -0.60616,-0.52772 -0.2496,-0.30665 -0.39223,-0.72027 -0.13549,-0.41362 -0.13549,-0.94847 0,-1.36209 1.01978,-2.08235 1.02692,-0.7274 2.98091,-0.7274 1.86841,0 2.80261,0.58477 0.94134,0.58477 1.21233,1.9326 l -2.03956,0.27812 q -0.15689,-0.64895 -0.64182,-0.977 -0.4778,-0.32804 -1.37635,-0.32804 -1.9112,0 -1.9112,1.19807 0,0.39222 0.19967,0.64182 0.20681,0.2496 0.60617,0.42788 0.39935,0.17115 1.61881,0.43501 1.44767,0.30665 2.06809,0.57051 0.62756,0.25673 0.99126,0.60616 0.3637,0.34231 0.55625,0.82724 0.19254,0.4778 0.19254,1.10536 z"
              style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1458" /><path
+             id="path1354" /><path
              d="m -257.74163,-210.36537 q 0,1.5689 -0.62042,2.75983 -0.62043,1.19094 -1.77571,1.82563 -1.15528,0.62755 -2.69565,0.62755 -2.36761,0 -3.71543,-1.39061 -1.34069,-1.39774 -1.34069,-3.8224 0,-2.41753 1.34069,-3.77248 1.34069,-1.35496 3.72969,-1.35496 2.38901,0 3.7297,1.36922 1.34782,1.36922 1.34782,3.75822 z m -2.14653,0 q 0,-1.62595 -0.77019,-2.54589 -0.77018,-0.92708 -2.1608,-0.92708 -1.412,0 -2.18219,0.91995 -0.77018,0.91281 -0.77018,2.55302 0,1.65447 0.78444,2.61007 0.79158,0.94847 2.15367,0.94847 1.41201,0 2.17506,-0.92707 0.77019,-0.92708 0.77019,-2.63147 z"
              style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1460" /><path
+             id="path1356" /><path
              d="m -251.45891,-206.80683 q 1.90407,0 2.64573,-1.9112 l 1.83276,0.69174 q -0.59191,1.4548 -1.74005,2.16793 -1.14102,0.706 -2.73844,0.706 -2.42466,0 -3.75109,-1.36921 -1.3193,-1.37635 -1.3193,-3.8438 0,-2.47458 1.27651,-3.80101 1.27651,-1.32643 3.70117,-1.32643 1.76858,0 2.88107,0.71314 1.11249,0.706 1.56176,2.08235 l -1.85415,0.50632 q -0.23533,-0.75592 -0.92707,-1.19806 -0.68461,-0.44928 -1.61882,-0.44928 -1.42627,0 -2.16793,0.88429 -0.73453,0.88429 -0.73453,2.58868 0,1.73292 0.75592,2.64573 0.76306,0.91281 2.19646,0.91281 z"
              style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1462" /><path
+             id="path1358" /><path
              d="m -245.60408,-205.29498 v -10.04807 h 2.10375 v 10.04807 z"
              style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1464" /><path
+             id="path1360" /><path
              d="m -234.44351,-205.29498 -0.89142,-2.56729 h -3.82954 l -0.89141,2.56729 h -2.10375 l 3.66551,-10.04807 h 2.48171 l 3.65125,10.04807 z m -2.80975,-8.50057 -0.0428,0.15689 q -0.0713,0.25673 -0.17116,0.58477 -0.0998,0.32804 -1.22659,3.60846 h 2.8882 l -0.99126,-2.88819 -0.30665,-0.96987 z"
              style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1466" /><path
+             id="path1362" /><path
              d="m -222.0421,-210.3939 q 0,1.55464 -0.6133,2.71705 -0.60616,1.15528 -1.72579,1.76857 -1.11249,0.6133 -2.55302,0.6133 h -4.06487 v -10.04807 h 3.63699 q 2.53876,0 3.92937,1.28364 1.39062,1.27651 1.39062,3.66551 z m -2.11801,0 q 0,-1.61881 -0.8415,-2.46744 -0.8415,-0.85576 -2.40327,-0.85576 h -1.49045 v 6.79617 h 1.78284 q 1.35495,0 2.15367,-0.93421 0.79871,-0.9342 0.79871,-2.53876 z"
              style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1468" /><path
+             id="path1364" /><path
              d="m -210.68186,-210.36537 q 0,1.5689 -0.62043,2.75983 -0.62043,1.19094 -1.7757,1.82563 -1.15528,0.62755 -2.69565,0.62755 -2.36761,0 -3.71544,-1.39061 -1.34069,-1.39774 -1.34069,-3.8224 0,-2.41753 1.34069,-3.77248 1.3407,-1.35496 3.7297,-1.35496 2.389,0 3.72969,1.36922 1.34783,1.36922 1.34783,3.75822 z m -2.14654,0 q 0,-1.62595 -0.77018,-2.54589 -0.77019,-0.92708 -2.1608,-0.92708 -1.41201,0 -2.18219,0.91995 -0.77019,0.91281 -0.77019,2.55302 0,1.65447 0.78445,2.61007 0.79158,0.94847 2.15367,0.94847 1.412,0 2.17506,-0.92707 0.77018,-0.92708 0.77018,-2.63147 z"
              style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1470" /><path
+             id="path1366" /><path
              d="m -200.89766,-208.19031 q 0,1.47619 -1.09823,2.26064 -1.09109,0.77731 -3.2091,0.77731 -1.9326,0 -3.03083,-0.68461 -1.09822,-0.6846 -1.412,-2.07522 l 2.03243,-0.33517 q 0.20681,0.79871 0.80584,1.16241 0.59904,0.35657 1.66161,0.35657 2.20358,0 2.20358,-1.3407 0,-0.42788 -0.25673,-0.706 -0.24959,-0.27812 -0.71313,-0.46354 -0.45641,-0.18541 -1.76144,-0.44927 -1.12676,-0.26386 -1.5689,-0.42075 -0.44214,-0.16402 -0.79871,-0.37796 -0.35657,-0.22108 -0.60616,-0.52772 -0.2496,-0.30665 -0.39223,-0.72027 -0.13549,-0.41362 -0.13549,-0.94847 0,-1.36209 1.01978,-2.08235 1.02691,-0.7274 2.9809,-0.7274 1.86841,0 2.80262,0.58477 0.94134,0.58477 1.21233,1.9326 l -2.03957,0.27812 q -0.15689,-0.64895 -0.64182,-0.977 -0.4778,-0.32804 -1.37635,-0.32804 -1.9112,0 -1.9112,1.19807 0,0.39222 0.19968,0.64182 0.20681,0.2496 0.60616,0.42788 0.39936,0.17115 1.61882,0.43501 1.44766,0.30665 2.06809,0.57051 0.62756,0.25673 0.99126,0.60616 0.3637,0.34231 0.55624,0.82724 0.19255,0.4778 0.19255,1.10536 z"
              style="font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-             id="path1472" /></g><g
+             id="path1368" /></g><g
            aria-label="&amp;"
-           id="text499-3-7-6-8"
+           id="text499-3-7-2"
            style="font-size:14.7371px;line-height:1.25;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';letter-spacing:0px;stroke-width:0.147371"><path
              d="m -297.11427,-205.20993 q -1.27366,0 -2.14436,-0.91387 -0.53969,0.46773 -1.23049,0.71958 -0.6908,0.25186 -1.44636,0.25186 -1.54711,0 -2.39622,-0.74118 -0.84911,-0.74836 -0.84911,-2.0724 0,-2.00045 2.46817,-3.08702 -0.23746,-0.44614 -0.41016,-1.05779 -0.1727,-0.61165 -0.1727,-1.11536 0,-1.07937 0.65482,-1.66943 0.66202,-0.59726 1.87092,-0.59726 1.08658,0 1.74859,0.54689 0.66922,0.54688 0.66922,1.49673 0,0.84911 -0.66202,1.51113 -0.65482,0.66202 -2.28108,1.30965 0.79874,1.47514 2.10838,2.96469 0.81313,-1.19452 1.23049,-2.9503 l 1.0434,0.30942 q -0.45334,1.79177 -1.52552,3.37485 0.6908,0.7052 1.49674,0.7052 0.5109,0 0.84191,-0.11514 v 0.97144 q -0.40297,0.15831 -1.01462,0.15831 z m -2.33145,-8.23925 q 0,-0.5181 -0.35979,-0.84191 -0.3598,-0.33101 -0.97864,-0.33101 -0.6908,0 -1.05059,0.37418 -0.35979,0.36699 -0.35979,1.02181 0,0.82033 0.46773,1.75579 0.94265,-0.38138 1.3816,-0.66202 0.44614,-0.28064 0.66921,-0.60445 0.23027,-0.32381 0.23027,-0.71239 z m -0.53249,6.5914 q -1.42478,-1.68383 -2.29548,-3.2885 -1.69822,0.71958 -1.69822,2.16595 0,0.8707 0.55408,1.3816 0.56128,0.50371 1.52552,0.50371 0.51091,0 1.02181,-0.19429 0.51091,-0.20148 0.89229,-0.56847 z"
              style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'"
-                            id="path1475" /></g></g></g></g>
-                        </svg>
-                    </a>
-                    <div id="hamburguer-menu-icon">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a class="nav-li-element" href="../index.html">Página Principal</a></li>
-                        <li><a class="nav-li-element" href="servicios.html">Servicios</a></li>
-                        <li><a class="nav-li-element" href="nosotros.html">Nosotros</a></li>
-                        <li><a class="nav-li-element" href="contacto.html">Contacto</a></li>
-                        <li><a class="nav-li-element" href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <section id="section-contacto-contacto">
-                <div class="common-padding">
-                    <div class="text-container">
-                        <span class="small-title">Ponete en contacto</span>
-                        <h2>Contactanos</h2>
-                        <ul>
-                            <li class="medio-de-contacto">
-                                <img src="../Imagenes/Iconos/phone.svg">
-                                <p>
-                                    +54 11 3245-11982
-                                </p>
-                            </li>
-                            <li class="medio-de-contacto">
-                                <img src="../Imagenes/Iconos/mail.svg">
-                                <p>
-                                    contacto@gya.com.ar
-                                </p>
-                            </li>
-                            <li class="medio-de-contacto">
-                                <img src="../Imagenes/Iconos/pin.svg">
-                                <p>
-                                    Raul Alfonso 143, Avellaneda, Buenos Aires
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <hr>
-                    <div id="contact-form">
-                        <h3>Envíanos un mensaje</h3>
-                        <div class="text-container">
-                            <p class="left-aligned">
-                                Nos encantaría saber de vos. Por favor completa el formulario a continuación y alguien se comunicará dentro de los siguientes 3 días hábiles.
-                            </p>
-                        </div>
-                        <form>
-                            <div class="form-div-subject">
-                                <label for="nombre">Nombre</label>
-                                <input type="text" name="nombre" placeholder="Tu nombre">
-                            </div>
-                            <div class="form-div-subject">
-                                <label for="email">Email</label>
-                                <input type="text" name="email" placeholder="Tu email">
-                            </div>
-                            <div class="form-div-subject">
-                                <label for="numero-telefonico">Teléfono</label>
-                                <input type="text" name="numero-telefonico" placeholder="Tu número">
-                            </div>
-                            <div class="form-div-subject">
-                                <label for="mensaje">Mensaje</label>
-                                <textarea name="mensaje" placeholder="Escribí tu mensaje..."></textarea>
-                            </div>
-                            <div id="div-contact-form-button">
-                                <button type="submit" class="common-button moving-text-slow">Enviar mensaje</button>
-                            </div>
-                        </form>    
-                    </div> 
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="common-padding">
-                <div id="footer-div-top">
-                    <img id="footer-div-top-logo" src="../Imagenes/Logo/logo-white-1.png" alt="Logo de Gutierrez & Asociados">
-                    <div id="footer-div-top-information" class="footer-section">
-                        <h4>Información</h4>
-                        <ul>
-                            <li><a href="../index.html">Página principal</a></li>
-                            <li><a href="nosotros.html">Nosotros</a></li>
-                            <li><a href="servicios.html">Servicios</a></li>
-                            <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
-                            <li><a href="contacto.html">Contacto</a></li>
-                        </ul>
-                    </div>
-                    <div id="footer-div-top-contacto" class="footer-section">
-                        <h4>Contacto</h4>
-                        <ul>
-                            <li>+54 11 3245-11982</li>
-                            <li>contacto@gya.com.ar</li>
-                            <li>Raul Alfonso 143, Avellaneda, Buenos Aires</li>
-                        </ul>
-                    </div>
-                </div>
-                <hr>
-                <p id="footer-p-copyright">© Copyright 2025 - 
-                    <a href="https://paginasestaticas.com.ar">
-                        Sitio Web desarrollado por Páginas Estáticas
-                    </a>
-                </p>
-            </div>
-        </footer>
-    </body>
-    <script src="../Scripts/hamburgerMenu.js"></script>
-    <script src="../Scripts/animations.js"></script>
-</html>
+             id="path1371" /></g></g></g></g></svg>
